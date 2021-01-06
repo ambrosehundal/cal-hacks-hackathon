@@ -1,0 +1,149 @@
+h1 {
+    font-family: Apercu Pro;
+    color: #262444;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 120px ;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    font-family: Apercu Pro;
+    padding-left: 200px;
+    padding-top: 50px;
+    background: #FFFFFF;
+    z-index: 1;
+    width: 100%
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #262444;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+  }
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: #2D9CDB; 
+}
+
+@font-face {
+    font-family: "Apercu Pro";
+    src:url("/typeface/apercu_medium_pro.otf");
+    src:url("/typeface/apercu_bold_pro.otf");
+    src:url("/typeface/apercu_regular_pro.otf");
+}
+
+
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+}
+
+
+#searchbar {
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Apercu Pro";
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: Apercu Pro;
+    color: #262444;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: Apercu Pro;
+    color: #262444;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 40px;
+}
+
+h4 {
+    text-align: center;
+    font-family: Apercu Pro;
+    color: #262444;
+    font-size: 20px;
+}
+
+.topic {
+    display: inline-block;
+    text-align: center;
+    font-family: Apercu Pro;
+    color: #262444;
+    margin: atuo;
+    vertical-align: top;
+    width: 300px;
+}
+
+.topic img {
+    padding-top: 70px;
+}
+
+.demo {
+    padding-top: 100px;
+}
+
+#aboutus {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#button {
+    background: linear-gradient(270deg, #2D9CDB -9.88%, #05E1CF 112.5%);
+    border-radius: 10px;
+    font-family: Apercu Pro;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 128px;
+    font-size: 16px;
+    border: 0;
+}
+
+.topnav-right {
+    float: right;
+    padding-right: 300px;
+}
+
+.calltoaction {
+    text-align: center;
+    padding: 100px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.footertext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    font-family: Apercu Pro;
+    font-weight: bold;
+    font-size: 18px;
+}
